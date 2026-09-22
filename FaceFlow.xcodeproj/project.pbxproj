@@ -1,0 +1,129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* FaceFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* FaceFlowApp.swift */; };
+		A10000000000000000000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppState.swift */; };
+		A10000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Models.swift */; };
+		A10000000000000000000004 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* NotificationManager.swift */; };
+		A10000000000000000000005 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* SpeechManager.swift */; };
+		A10000000000000000000006 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* StoreManager.swift */; };
+		A10000000000000000000007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* RootView.swift */; };
+		A10000000000000000000008 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* Design.swift */; };
+		A10000000000000000000009 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* OnboardingView.swift */; };
+		A10000000000000000000010 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* HomeView.swift */; };
+		A10000000000000000000011 /* RoutinePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* RoutinePlayerView.swift */; };
+		A10000000000000000000012 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* ExploreView.swift */; };
+		A10000000000000000000013 /* ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* ProgressViewScreen.swift */; };
+		A10000000000000000000014 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* ProfileView.swift */; };
+		A10000000000000000000015 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* PaywallView.swift */ };
+		A10000000000000000000016 /* FaceFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* FaceFlowTests.swift */; };
+		A10000000000000000000017 /* FaceFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* FaceFlowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* FaceFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFlowApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* RoutinePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinePlayerView.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* ProgressViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* FaceFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFlowTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* FaceFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFlowUITests.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* FaceFlow */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000019 /* FaceFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000020 /* FaceFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000022 /* FaceFlow.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = FaceFlow.storekit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {isa = PBXGroup; children = (D10000000000000000000002, D10000000000000000000003, D10000000000000000000004); sourceTree = "<group>"; };
+		D10000000000000000000002 /* FaceFlow */ = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000004, B10000000000000000000005, B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B10000000000000000000010, B10000000000000000000011, B10000000000000000000012, B10000000000000000000013, B10000000000000000000014, B10000000000000000000015, B10000000000000000000021, B10000000000000000000022); path = FaceFlow; sourceTree = "<group>"; };
+		D10000000000000000000003 /* FaceFlowTests */ = {isa = PBXGroup; children = (B10000000000000000000016); path = FaceFlowTests; sourceTree = "<group>"; };
+		D10000000000000000000004 /* FaceFlowUITests */ = {isa = PBXGroup; children = (B10000000000000000000017); path = FaceFlowUITests; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* FaceFlow */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000001; buildPhases = (C10000000000000000000001, G10000000000000000000001, H10000000000000000000001); buildRules = (); dependencies = (); name = FaceFlow; productName = FaceFlow; productReference = B10000000000000000000018; productType = "com.apple.product-type.application"; };
+		E10000000000000000000002 /* FaceFlowTests */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000002; buildPhases = (C10000000000000000000002, G10000000000000000000002, H10000000000000000000002); buildRules = (); dependencies = (); name = FaceFlowTests; productName = FaceFlowTests; productReference = B10000000000000000000019; productType = "com.apple.product-type.bundle.unit-test"; };
+		E10000000000000000000003 /* FaceFlowUITests */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000003; buildPhases = (C10000000000000000000003, G10000000000000000000003, H10000000000000000000003); buildRules = (); dependencies = (); name = FaceFlowUITests; productName = FaceFlowUITests; productReference = B10000000000000000000020; productType = "com.apple.product-type.bundle.ui-testing"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		I10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = 1600; TargetAttributes = { E10000000000000000000001 = { CreatedOnToolsVersion = 16.0; }; E10000000000000000000002 = { CreatedOnToolsVersion = 16.0; TestTargetID = E10000000000000000000001; }; E10000000000000000000003 = { CreatedOnToolsVersion = 16.0; TestTargetID = E10000000000000000000001; }; };
+			};
+			buildConfigurationList = F10000000000000000000004;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000005;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001, E10000000000000000000002, E10000000000000000000003);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		G10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A10000000000000000000010, A10000000000000000000011, A10000000000000000000012, A10000000000000000000013, A10000000000000000000014, A10000000000000000000015); runOnlyForDeploymentPostprocessing = 0; };
+		G10000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000016); runOnlyForDeploymentPostprocessing = 0; };
+		G10000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000017); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		H10000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		H10000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		H10000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		J10000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = FaceFlow/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceFlow; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		J10000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = FaceFlow/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceFlow; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		J10000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceFlowTests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceFlow.app/FaceFlow"; }; name = Debug; };
+		J10000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceFlowTests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceFlow.app/FaceFlow"; }; name = Release; };
+		J10000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceFlowUITests; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		J10000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceFlowUITests; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		J10000000000000000000007 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; SWIFT_VERSION = 5.0; }; name = Debug; };
+		J10000000000000000000008 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (J10000000000000000000001, J10000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (J10000000000000000000003, J10000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (J10000000000000000000005, J10000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000004 = {isa = XCConfigurationList; buildConfigurations = (J10000000000000000000007, J10000000000000000000008); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin PBXFrameworksBuildPhase section duplicate-safe */
+		C10000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C10000000000000000000003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section extra */
+		D10000000000000000000005 = {isa = PBXGroup; children = (B10000000000000000000018, B10000000000000000000019, B10000000000000000000020); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section extra */
+	};
+	rootObject = I10000000000000000000001;
+}

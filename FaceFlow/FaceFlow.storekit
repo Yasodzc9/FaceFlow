@@ -1,0 +1,54 @@
+{
+  "identifier" : "FaceFlow.StoreKitTest",
+  "products" : [
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "id" : "faceflow_pro_monthly",
+      "introductoryOffer" : {
+        "displayPrice" : "0.00",
+        "duration" : "P7D",
+        "paymentMode" : "freeTrial",
+        "period" : "P1M"
+      },
+      "locale" : "en_US",
+      "productType" : "Auto-Renewable Subscription",
+      "referenceName" : "FaceFlow Pro Monthly",
+      "subscriptionGroupIdentifier" : "faceflow_pro",
+      "subscriptionPeriod" : "P1M"
+    },
+    {
+      "displayPrice" : "39.99",
+      "familyShareable" : false,
+      "id" : "faceflow_pro_yearly",
+      "introductoryOffer" : {
+        "displayPrice" : "0.00",
+        "duration" : "P7D",
+        "paymentMode" : "freeTrial",
+        "period" : "P1Y"
+      },
+      "locale" : "en_US",
+      "productType" : "Auto-Renewable Subscription",
+      "referenceName" : "FaceFlow Pro Yearly",
+      "subscriptionGroupIdentifier" : "faceflow_pro",
+      "subscriptionPeriod" : "P1Y"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "faceflow-local-test"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "faceflow_pro",
+      "localizations" : [
+        {
+          "description" : "FaceFlow Pro",
+          "displayName" : "FaceFlow Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "FaceFlow Pro"
+    }
+  ],
+  "version" : 1
+}
