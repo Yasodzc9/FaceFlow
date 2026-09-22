@@ -1,0 +1,44 @@
+name: FaceFlow iOS Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build FaceFlow on macOS
+    runs-on: macos-15-intel
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: |
+          xcodebuild -version
+          xcode-select -p
+
+      - name: Build iOS Simulator app
+        run: |
+          set -o pipefail
+          xcodebuild                 -project FaceFlow.xcodeproj                 -scheme FaceFlow                 -sdk iphonesimulator                 -configuration Debug                 -derivedDataPath build/DerivedData                 CODE_SIGNING_ALLOWED=NO                 CODE_SIGNING_REQUIRED=NO                 build | tee build.log
+
+      - name: Package simulator app
+        run: |
+          APP_PATH="build/DerivedData/Build/Products/Debug-iphonesimulator/FaceFlow.app"
+          test -d "$APP_PATH"
+          ditto -c -k --sequesterRsrc --keepParent "$APP_PATH" "FaceFlow-iOS-Simulator.zip"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FaceFlow-iOS-Simulator
+          path: |
+            FaceFlow-iOS-Simulator.zip
+            build.log
+          if-no-files-found: error
+          retention-days: 14
