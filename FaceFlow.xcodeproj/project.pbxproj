@@ -21,7 +21,7 @@
 		A10000000000000000000012 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* ExploreView.swift */; };
 		A10000000000000000000013 /* ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* ProgressViewScreen.swift */; };
 		A10000000000000000000014 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* ProfileView.swift */; };
-		A10000000000000000000015 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* PaywallView.swift */ };
+		A10000000000000000000015 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* PaywallView.swift */; };
 		A10000000000000000000016 /* FaceFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* FaceFlowTests.swift */; };
 		A10000000000000000000017 /* FaceFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* FaceFlowUITests.swift */; };
 /* End PBXBuildFile section */
