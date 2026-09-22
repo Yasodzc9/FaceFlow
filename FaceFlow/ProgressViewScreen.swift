@@ -6,7 +6,7 @@ struct ProgressViewScreen: View {
     private var daysThisMonth: [Date] {
         let calendar = Calendar.current
         let now = Date()
-        let range = calendar.range(of: .day, in: .month, for: now) ?? 1...1
+        let range = calendar.range(of: .day, in: .month, for: now) ?? 1..<2
         let comps = calendar.dateComponents([.year, .month], from: now)
         return range.compactMap { day in
             var c = comps
